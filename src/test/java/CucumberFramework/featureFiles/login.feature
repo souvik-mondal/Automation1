@@ -21,7 +21,7 @@ Feature: Log into Account
 
   Scenario: Login into account with correct credentials
     Given User navigates to StackOverflow website
-    And User clicks on the login button
+    When User clicks on the login button on homescreen
     And User enters a valid username
     And User enters a valid password
     And User clicks on the login button
