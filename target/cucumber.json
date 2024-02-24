@@ -1,1 +1,190 @@
-[{"line":19,"elements":[{"start_timestamp":"2024-02-21T05:07:21.170Z","line":22,"name":"Login into account with correct credentials","description":"","id":"log-into-account;login-into-account-with-correct-credentials","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":59703600,"status":"passed"},"line":23,"name":"User navigates to StackOverflow website","match":{"location":"CucumberFramework.steps.LogInSteps.user_navigates_to_stack_overflow_website()"},"keyword":"Given "},{"result":{"duration":2991600,"status":"passed"},"line":24,"name":"User clicks on the login button on homescreen","match":{"location":"CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button_on_homescreen()"},"keyword":"When "},{"result":{"duration":5984000,"status":"passed"},"line":25,"name":"User enters a valid username","match":{"location":"CucumberFramework.steps.LogInSteps.user_enters_a_valid_username()"},"keyword":"And "},{"result":{"status":"passed"},"line":26,"name":"User enters a valid password","match":{"location":"CucumberFramework.steps.LogInSteps.user_enters_a_valid_password()"},"keyword":"And "},{"result":{"duration":997600,"status":"passed"},"line":27,"name":"User clicks on the login button","match":{"location":"CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button()"},"keyword":"And "},{"result":{"duration":2991900,"status":"passed"},"line":28,"name":"User should be taken to the successful login page","match":{"location":"CucumberFramework.steps.LogInSteps.user_should_be_taken_to_the_successful_login_page()"},"keyword":"Then "}]}],"name":"Log into Account","description":"  Existing user should be able to login to account using correct credentials","id":"log-into-account","keyword":"Feature","uri":"file:src/test/java/CucumberFramework/featureFiles/login.feature","tags":[]},{"line":19,"elements":[{"start_timestamp":"2024-02-21T05:07:21.680Z","line":22,"name":"Login into account with correct credentials2","description":"","id":"log-into-account;login-into-account-with-correct-credentials2","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":2992200,"status":"passed"},"line":23,"name":"User navigates to StackOverflow website2","match":{"location":"CucumberFramework.steps.LogInSteps.user_navigates_to_stack_overflow_website2()"},"keyword":"Given "},{"result":{"duration":1994000,"status":"passed"},"line":24,"name":"User clicks on the login button on homescreen2","match":{"location":"CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button_on_homescreen2()"},"keyword":"When "},{"result":{"duration":1995000,"status":"passed"},"line":25,"name":"User enters a valid username2","match":{"location":"CucumberFramework.steps.LogInSteps.user_enters_a_valid_username2()"},"keyword":"And "},{"result":{"duration":1995000,"status":"passed"},"line":26,"name":"User enters a valid password2","match":{"location":"CucumberFramework.steps.LogInSteps.user_enters_a_valid_password2()"},"keyword":"And "},{"result":{"duration":997200,"status":"passed"},"line":27,"name":"User clicks on the login button2","match":{"location":"CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button2()"},"keyword":"And "},{"result":{"duration":997700,"status":"passed"},"line":28,"name":"User should be taken to the successful login page2","match":{"location":"CucumberFramework.steps.LogInSteps.user_should_be_taken_to_the_successful_login_page2()"},"keyword":"Then "}]}],"name":"Log into Account","description":"  Existing user should be able to login to account using correct credentials2","id":"log-into-account","keyword":"Feature","uri":"file:src/test/java/CucumberFramework/featureFiles/login2.feature","tags":[]}]
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-23T19:05:17.558Z",
+        "line": 22,
+        "name": "Login into account with correct credentials",
+        "description": "",
+        "id": "log-into-account;login-into-account-with-correct-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72771800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User navigates to StackOverflow website",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_navigates_to_stack_overflow_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button on homescreen",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button_on_homescreen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_enters_a_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1704500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1281900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should be taken to the successful login page",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_should_be_taken_to_the_successful_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Log into Account",
+    "description": "  Existing user should be able to login to account using correct credentials",
+    "id": "log-into-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/CucumberFramework/featureFiles/login.feature",
+    "tags": []
+  },
+  {
+    "line": 19,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-23T19:05:17.747Z",
+        "line": 22,
+        "name": "Login into account with correct credentials2",
+        "description": "",
+        "id": "log-into-account;login-into-account-with-correct-credentials2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 214800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User navigates to StackOverflow website2",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_navigates_to_stack_overflow_website2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 707800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks on the login button on homescreen2",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button_on_homescreen2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 725600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters a valid username2",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_enters_a_valid_username2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters a valid password2",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_enters_a_valid_password2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on the login button2",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_clicks_on_the_login_button2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 730700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should be taken to the successful login page2",
+            "match": {
+              "location": "CucumberFramework.steps.LogInSteps.user_should_be_taken_to_the_successful_login_page2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Log into Account",
+    "description": "  Existing user should be able to login to account using correct credentials2",
+    "id": "log-into-account",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/CucumberFramework/featureFiles/login2.feature",
+    "tags": []
+  }
+]
