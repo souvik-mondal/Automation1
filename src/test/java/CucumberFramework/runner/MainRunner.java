@@ -11,9 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"CucumberFramework.steps"},
 		monochrome=true,
 		tags= "",
-		plugin = {"pretty", "html:test-output", "json:target/cucumber.json",
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
-		dryRun=false
+		plugin = {"pretty", "json:target/cucumber.json",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 
 		)
 public class MainRunner {
