@@ -1,9 +1,23 @@
 package CucumberFramework.steps;
+import java.time.Duration;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LogInSteps {
+	WebDriver driver;
+	@Before
+	public void setup() {
+		System.out.println("Hello");
+		System.setProperty("webdriver.edge.driver", "././src/test/resources/msedgedriver.exe");
+		this.driver=new EdgeDriver();
+		this.driver.manage().window().maximize();
+		this.driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+	}
 
 	@Given("User navigates to StackOverflow website")
 	public void user_navigates_to_stack_overflow_website() {
