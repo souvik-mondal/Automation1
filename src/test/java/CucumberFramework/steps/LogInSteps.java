@@ -1,8 +1,12 @@
 package CucumberFramework.steps;
 import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -12,7 +16,6 @@ public class LogInSteps {
 	WebDriver driver;
 	@Before
 	public void setup() {
-		System.out.println("Hello");
 		System.setProperty("webdriver.edge.driver", "././src/test/resources/msedgedriver.exe");
 		this.driver=new EdgeDriver();
 		this.driver.manage().window().maximize();
@@ -21,12 +24,13 @@ public class LogInSteps {
 
 	@Given("User navigates to StackOverflow website")
 	public void user_navigates_to_stack_overflow_website() {
-	    System.out.println("User navigates to StackOverflow website");
+	    this.driver.get("https://stackoverflow.com/");
 	}
 
 	@When("User clicks on the login button on homescreen")
 	public void user_clicks_on_the_login_button_on_homescreen() {
-	    System.out.println("User clicks on the login button on homescreen");
+	   WebElement web=this.driver.findElement(By.xpath("//a[contains(text(),\"Log in\")]"));
+	   web.click();
 	}
 
 	@Given("User enters a valid username")
@@ -77,5 +81,9 @@ public class LogInSteps {
 	@Then("User should be taken to the successful login page2")
 	public void user_should_be_taken_to_the_successful_login_page2() {
 	   System.out.println("User should be taken to the successful login page2");
+	}
+	@After
+	public void sumup() {
+		driver.close();
 	}
 }
